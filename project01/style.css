@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #3F328C;
+    /* background-color: #3F328C; */
     
 }
 
 nav{
     height: 90px;
-    background-color:  #3F328C;
+    background-color:  #1a133f;
     display: flex;
     justify-content: space-between;
     align-items: center;
