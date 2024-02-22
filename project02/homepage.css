@@ -91,7 +91,7 @@ button:hover {
     background-color: black;
     transform: scale(1.1);
   transition: background-color 0.3s ease, transform 0.3s ease;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.208);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.317);
   transition: box-shadow 0.3s ease;
 
 }
