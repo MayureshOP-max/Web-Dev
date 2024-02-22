@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.image{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+}
+
+::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Edge */
+}  
+
+button{
+    padding: 1rem 3rem;
+    border: none;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #000000;
+    background: #ffffff00;
+    cursor: pointer;
+    border-radius: 50px;
+    z-index: 10 ;
+}
