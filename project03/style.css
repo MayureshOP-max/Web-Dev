@@ -18,7 +18,7 @@ body {
 }
 
 .hero-container {
-    background: linear-gradient(45deg, #ffe4f3, #ff9cf8);
+    /* background: linear-gradient(45deg, #ffe4f3, #ff9cf8); */
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 100vh;
@@ -43,7 +43,8 @@ body {
   }
   
   .letter-by-letter span:hover {
-    color: #6200b3;
+    color: #fc55e3;
+    cursor: pointer;
   }
 .column-left h1 {
     margin-bottom: 1rem;
@@ -64,7 +65,7 @@ body {
 }
 
 .column-left h2 {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     font-size: 2rem;
     font-weight: bold;
 }
@@ -89,7 +90,7 @@ button {
 }
 
 button:hover {
-    background: #c36aff;
+    background: #fc55e3;
     color: #000;
 }
 
