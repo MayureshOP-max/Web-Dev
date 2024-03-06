@@ -173,3 +173,7 @@ nav {
 .button:hover {
     background-color: #5ce261;
 }
+
+.nav-button{
+    padding-right: 40px;
+}
