@@ -125,6 +125,12 @@ nav {
     height: auto;
 }
 
+.logo img{
+    width: auto;
+    height: 50px;
+    padding-left: 90px;
+}
+
 .tabs {
     display: flex;
     list-style: none;
@@ -142,7 +148,7 @@ nav {
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 1.5em; /* Increase the font size of the tabs text */
+    font-size: 1.7em; /* Increase the font size of the tabs text */
     transition: background-color 0.3s ease;
 }
 
