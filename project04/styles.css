@@ -263,14 +263,14 @@ nav {
 }
 
 .hero-image {
-    width: 60%;
+    width: 70% !important;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
 .hero-image img {
-    width: 80%;
+    width: 90% !important;
     height: auto;
 }
 
@@ -359,7 +359,8 @@ nav {
 }
 
 #lightbox-close {
-    display: none; /* hide the close button */
+    display: none;
+    /* hide the close button */
     position: absolute;
     top: 10px;
     right: 10px;
@@ -383,16 +384,18 @@ nav {
     background-color: rgba(0, 0, 0, 0);
     border-radius: 0 0 5px 5px;
     z-index: 9999;
-  }
-  
-  #lightbox-prev, #lightbox-next {
+}
+
+#lightbox-prev,
+#lightbox-next {
     background-color: transparent;
     border: none;
     color: #fff;
     font-size: 2rem;
     cursor: pointer;
-  }
-  
-  #lightbox-prev:focus, #lightbox-next:focus {
+}
+
+#lightbox-prev:focus,
+#lightbox-next:focus {
     outline: none;
-  }
+}

@@ -2,9 +2,14 @@
 <html lang="en">
 
 <head>
+    <!-- Metadata for character encoding and viewport settings -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page title -->
     <title>Document</title>
+
+    <!-- Link to stylesheet and Google Fonts -->
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,10 +17,14 @@
 </head>
 
 <body>
+    <!-- Navigation section -->
     <nav>
+        <!-- Logo container -->
         <div class="logo">
-            <img src="assets/Grizz.png" alt="Logo">
+            <img src="assets/yoru.png" alt="Logo">
         </div>
+
+        <!-- Tabs container -->
         <ul class="tabs">
             <li><a href="#">Services</a></li>
             <li><a href="#">How we work</a></li>
@@ -23,12 +32,16 @@
             <li><a href="#">About Us</a></li>
             <li><a href="#">Blog</a></li>
         </ul>
+
+        <!-- Button container -->
         <div class="nav-button">
             <button class="button">Explore</button>
         </div>
     </nav>
 
+    <!-- Hero section -->
     <section class="hero">
+        <!-- Text container -->
         <div class="hero-text">
             <p class="hero-subtitle">Welcome to the exciting world of Valorant!</p>
             <h1 class="hero-title">With a diverse
@@ -37,15 +50,22 @@
             <button class="hero-button">Play Now!</button>
             <p class="hero-description">So, gear up, lock and load, and join the fray in Valorant.</p>
         </div>
+
+        <!-- Image container -->
         <div class="hero-image">
-            <img src="assets/tanzee.png" alt="Hero image">
+            <img src="assets/yoru.png" alt="Hero image">
         </div>
     </section>
 
+    <!-- Image grid section -->
     <section class="image-grid">
         <h2 class="title">Screenshots</h2>
-        <p class="description">Here are some Screenshots and Thumbnails of Valorant. Click on each image to learn more.</p>
+        <p class="description">Here are some Screenshots and Thumbnails of Valorant. Click on each image to learn more.
+        </p>
+
+        <!-- Grid container -->
         <div class="grid">
+            <!-- Image items -->
             <div class="item">
                 <img src="assets/1 (1).jpg" alt="Image 1">
             </div>
@@ -94,18 +114,25 @@
         </div>
     </section>
 
+    <!-- Lightbox overlay container -->
     <div id="lightbox-overlay" class="hidden">
+        <!-- Lightbox content container -->
         <div class="lightbox-content">
-          <img id="lightbox-image" src="" alt="">
-          <button id="lightbox-close">Close</button>
+            <!-- Lightbox image -->
+            <img id="lightbox-image" src="" alt="">
+            <!-- Lightbox close button -->
+            <button id="lightbox-close">Close</button>
         </div>
+        <!-- Lightbox arrows container -->
         <div id="lightbox-arrows">
+            <!-- Lightbox previous button -->
             <button id="lightbox-prev">Previous</button>
+            <!-- Lightbox next button -->
             <button id="lightbox-next">Next</button>
-          </div>
-      </div>
+        </div>
+    </div>
 
-
+    <!-- Script tag for JavaScript file -->
     <script src="script.js"></script>
 </body>
 
