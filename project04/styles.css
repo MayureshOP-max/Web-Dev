@@ -415,15 +415,25 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    padding: 30px; /* Add this line */
+}
+
+.dual-div:hover {
+    background-color: #303030;
+    
 }
 
 .dual-div-title {
     /* background-color: white; */
     padding: 0 15px;
     text-align: center;
-    font-size: 24px;
+    font-size: 22px;
     /* user-select: none; */
     margin-bottom: 10px;
+    font-family: 'MyCustomFont', sans-serif;
+    font-weight: bold;
+    color: #5ce261;
 }
 
 .dual-div-image {
@@ -438,4 +448,57 @@ nav {
     /* box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); */
     position: relative;
     z-index: 1;
+}
+
+.triple-div-section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px; /* Add this line */
+}
+
+.triple-div {
+    width: 40%;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    padding-top: 20px;
+    margin-right: 20px; /* Add this line */
+}
+
+.triple-div:hover {
+    background-color: #303030;
+    /* color: #333; */
+}
+
+.triple-div-title {
+    /* background-color: white; */
+    padding: 0 15px;
+    text-align: center;
+    font-size: 24px;
+    /* user-select: none; */
+    margin-bottom: 10px;
+    font-family: 'MyCustomFont', sans-serif;
+    font-weight: bold;
+    color: #5ce261;
+}
+
+.triple-div-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.triple-div-image:hover {
+    transform: scale(1.1);
+    /* box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); */
+    position: relative;
+    z-index: 1;
+}
+.triple-div:last-child {
+    margin-right: 0; /* Add this line */
 }
