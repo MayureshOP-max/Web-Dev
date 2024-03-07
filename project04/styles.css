@@ -399,3 +399,43 @@ nav {
 #lightbox-next:focus {
     outline: none;
 }
+
+.dual-div-section {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px; ;
+}
+
+.dual-div {
+    width: 40%;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dual-div-title {
+    /* background-color: white; */
+    padding: 0 15px;
+    text-align: center;
+    font-size: 24px;
+    /* user-select: none; */
+    margin-bottom: 10px;
+}
+
+.dual-div-image {
+    padding-top: 20px;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.dual-div-image:hover {
+    transform: scale(1.1);
+    /* box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); */
+    position: relative;
+    z-index: 1;
+}
