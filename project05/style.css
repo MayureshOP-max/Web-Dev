@@ -19,11 +19,12 @@ body {
     right: 0;
     width: 70px;
     height: 100%;
-    background-color: #171717;
+    background-color: #000000;
     transition: background-color 0.3s ease;
 }
 
 .stripe-text {
+    
     font-family: 'CustomFont';
     font-size: 40px;
     position: absolute;
@@ -43,14 +44,51 @@ body {
     writing-mode: vertical-rl;
     text-orientation: mixed;
     color: white;
-    margin: 0 25px 20px 0; 
+    margin: 0 15px 20px 0; 
     width: 100%;
     text-align: center;
     
 }
 
 .stripe:hover {
-    background-color: #3a3a3a;
+    background-color: #272727;
 }
 
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #fffefe; */
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1); /* Add this line */
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left img {
+    height: 50px;
+    width: auto;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+    justify-content: space-between; /* Add this line */
+    width: calc(100% - 1050px); /* Add this line */
+}
+
+.navbar-right a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.navbar-right span {
+    color: rgb(0, 0, 0);
+    /* margin-right: 10px; */
+}
