@@ -13,4 +13,4 @@ textElements.forEach(text => {
       scrub: true,
     },
   });
-});
+}); 
