@@ -239,16 +239,9 @@ body {
     display: flex;
 }
 
-.hero-image {
+.hero-image--top {
     height: auto;
     max-width: 100%;
     margin-bottom: 30px;
 }
 
-.hero-image--middle {
-    margin-left: -30px;
-}
-
-.hero-image--bottom {
-    margin-left: -60px;
-}
