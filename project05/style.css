@@ -87,12 +87,13 @@ body {
     align-items: center;
     padding-right: 100px;
     justify-content: space-between;
-    width: calc(100% - 1050px);
+    width: calc(100% - 1000px);
+
 }
 
 .navbar-right a {
     font-size: large;
-    font-weight:bolder;
+    font-weight: bolder;
     color: rgb(135, 135, 135);
     text-decoration: none;
     margin-right: 15px;
@@ -100,11 +101,12 @@ body {
 
 .navbar-right span {
     color: rgb(0, 0, 0);
-    /* margin-right: 10px; */
+    margin-right: 15px;
 }
 
 .navbar-right a:hover {
     color: #000000;
+    transition: color 0.3s ease;
 }
 
 .container {
@@ -166,3 +168,87 @@ body {
     color: inherit;
 }
 
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #333; */
+    padding: 100px 50px;
+}
+
+.hero-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hero-title {
+    font-size: 55px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+    font-family: 'CustomFont';
+    letter-spacing: 2px;
+}
+
+.hero-description {
+    font-size: 20px;
+    color: rgb(115, 115, 115);
+    margin-bottom: 70px;
+}
+
+.hero-button-icon {
+    margin-left: 10px;
+    height: 1.5em;
+    width: 1.5  em;
+}
+
+.hero-button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.hero-button-container a {
+    display: flex;
+    align-items: center;
+}
+
+.hero-button {
+    font-family: 'CustomFont';
+    letter-spacing: 2px;
+    font-size: large;
+    padding: 15px 40px;
+    background-color: #7b14ec;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.hero-button:hover {
+    box-shadow: 30px 10px 60px rgb(194, 114, 255);
+    transform: translateY(-5px);
+}
+
+.hero-right {
+    display: flex;
+}
+
+.hero-image {
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+.hero-image--middle {
+    margin-left: -30px;
+}
+
+.hero-image--bottom {
+    margin-left: -60px;
+}
