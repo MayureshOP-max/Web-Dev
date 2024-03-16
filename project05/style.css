@@ -235,6 +235,43 @@ body {
     box-shadow: 30px 10px 60px rgb(194, 114, 255);
     transform: translateY(-5px);
 }
+.hero-button-icon {
+    margin-left: 10px;
+    height: 1.5em;
+    width: 1.5 em;
+}
+
+.hero-button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.hero-button-container a {
+    display: flex;
+    align-items: center;
+}
+
+.hero-button1 {
+    font-family: 'CustomFont';
+    letter-spacing: 2px;
+    font-size: large;
+    padding: 15px 40px;
+    background-color: #fcc7ff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.hero-button1:hover {
+    box-shadow: 30px 10px 60px rgb(194, 114, 255);
+    transform: translateY(-5px);
+}
 
 .hero-right {
     display: flex;
